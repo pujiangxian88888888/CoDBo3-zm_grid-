@@ -1,0 +1,56 @@
+>class,zm_mod_level
+>group,modtools
+
+xmodel,skybox_default_day
+material,luts_t7_default
+	
+// BSP
+col_map,maps/zm/zm_grid.d3dbsp
+gfx_map,maps/zm/zm_grid.d3dbsp
+
+// Audio
+sound,zm_grid
+
+scriptparsetree,scripts/zm/zm_grid.gsc
+scriptparsetree,scripts/zm/zm_grid.csc
+scriptparsetree,scripts/zm/hitmarker.gsc
+//scriptparsetree,scripts/zm/zm_usermap.gsc
+
+// Core
+include,wardog\wardog_addon_core
+include,wardog\wardog_addon_perk_3arc
+include,wardog\wardog_addon_perk_hud
+
+// PHD Flopper
+include,wardog\wardog_addon_perk_phd
+
+// Tombstone
+include,wardog\wardog_addon_perk_tombstone
+
+// Whos Who - Sanchez
+include,wardog\sanchez_addon_perk_whos
+
+// Vulture Aid
+include,wardog\wardog_addon_perk_vulture
+
+//timer
+scriptparsetree,scripts/zm/ugxmods_timedgp.gsc
+
+//customizationtable,zm_character_customization //use it later
+
+//L3ak lua modtools&ui tools
+rawfile,ui/uieditor/menus/hud/t7hud_zm_custom.lua
+rawfile,ui/uieditor/widgets/hud/customperksfactory.luac
+
+//BO4 mod perk Dying wish
+weapon,zombie_perk_bottle_dying_wish
+scriptparsetree,scripts/zm/_zm_perk_dying_wish.gsc
+scriptparsetree,scripts/zm/_zm_perk_dying_wish.csc
+scriptparsetree,scripts/zm/_zm_perk_dying_wish.gsh
+image,i_specialty_dyingwish_zombies
+xmodel,cz_vending_dying_wish
+
+
+
+	
+	
